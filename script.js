@@ -10,6 +10,10 @@ function bukaHadiah() {
 
   document.getElementById("halamanAwal").classList.add("hidden");
   document.getElementById("halamanHadiah").classList.remove("hidden");
+
+  // Mulai musik 🎵
+  let musik = document.getElementById("musik");
+  musik.play();
 }
 
 function bukaKotak() {
